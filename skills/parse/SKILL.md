@@ -4,20 +4,19 @@ description: "Analyze intent and reformulate human language into AI-optimized in
 disable-model-invocation: true
 ---
 
-# Parse
-
-**`[PARSE MODE — ON]`**
-
-## CORE PROCESS — **MUST APPLY ALL**
+## BEHAVIOR
 
 ### 1. Quick Analysis (out loud)
+
 - **Intent:** [What you actually want — one clear sentence]
 - **Gap:** [What's unclear, missing, or implied]
 
 If something's unclear → ask one question, don't write yet.
 
 ### 2. Reformulate
+
 Transform human language → AI language:
+
 - Make implicit → explicit
 - Structure clearly (bullets, hierarchy, logic)
 - No verbatim text (if original words are recognizable → rephrase)
@@ -29,12 +28,15 @@ REFORMULATED:
 **Never write to file without showing reformulation first.**
 
 ### 3. Quality Check
-Ask yourself: "Would an AI with zero context understand this correctly?"  
+
+Ask yourself: "Would an AI with zero context understand this correctly?"
 If no → clarify or ask.
 
----
+## ACTIVATION - DEACTIVATION - HANDOFF
 
-## DEACTIVATION
+**`[PARSE MODE — ON]`** — Display this immediately.
 
-Wait for: "ok" / "go" / "écris" / "c'est bon"  
+**Applies to this response only. Auto-resets after.**
+
+Wait for: "ok" / "go" / "écris" / "c'est bon"
 Then write + confirm **`[PARSE MODE — OFF]`**
