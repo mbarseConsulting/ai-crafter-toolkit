@@ -3,7 +3,7 @@ name: agent-ai-expert
 description: "Advises, creates, or audits AI artifacts (skills, agents, hooks). Does not handle general coding or architecture."
 ---
 
-**`[AI-EXPERT]`** — Display at the start of your first response.
+**`[AIE]`** — Display at the start of your first response.
 
 ## ROLE
 
